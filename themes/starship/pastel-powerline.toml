@@ -1,9 +1,9 @@
 format = """
-[](#9A348E)\
+[](#FFFFFF)\
 $username\
-[](bg:#DA627D fg:#9A348E)\
+[](bg:#8BE9FE fg:#FFFFFF)\
 $directory\
-[](fg:#DA627D bg:#9F71DB)\
+[](fg:#8BE9FE bg:#9F71DB)\
 $git_branch\
 $git_status\
 [](fg:#9F71DB bg:#1363DF)\
@@ -35,12 +35,12 @@ $cmd_duration\
 # You can also replace your username with a neat symbol like  to save some space
 [username]
 show_always = true
-style_user = "bg:#9A348E"
-style_root = "bg:#9A348E"
+style_root = "bg:#FFFFFF"
+style_user = "fg:#555555 bg:#FFFFFF"
 format = '[$user ]($style)'
 
 [directory]
-style = "bg:#DA627D"
+style = "fg:#555555 bg:#8BE9FE"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -141,7 +141,7 @@ disabled = false
 
 [kubernetes.context_aliases]
 # "(?P<user>^([\\w-]+@([\\w-]+\\.)+[\\w-]{2,4}))@(?P<cluster>([\\w-]+)).*" = "$cluster"
-"(?P<arn>^([\\w\\-:]+))/(?P<cluster>([\\w-]+))" = "$cluster"
+#"(?P<arn>^([\\w\\-:]+))/(?P<cluster>([\\w-]+))" = "$cluster"
 # "dev.local.cluster.k8s" = "dev"
 # ".*/openshift-cluster/.*" = "openshift"
 # "gke_.*_(?P<var_cluster>[\\w-]+)" = "gke-$var_cluster"
