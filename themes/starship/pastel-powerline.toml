@@ -17,6 +17,7 @@ $julia\
 $nodejs\
 $nim\
 $rust\
+$python\
 [](fg:#1363DF bg:#1363DF)\
 $aws\
 [](fg:#1363DF bg:#2F8F9D)\
@@ -105,6 +106,12 @@ format = '[[ $symbol ($version) ](bg:#1363DF)]($style)'
 [nodejs]
 symbol = ""
 style = "bg:#1363DF"
+format = '[[ $symbol ($version) ](bg:#1363DF)]($style)'
+
+[python]
+symbol = ""
+style = "bg:#1363DF"
+pyenv_version_name = true
 format = '[[ $symbol ($version) ](bg:#1363DF)]($style)'
 
 [nim]
