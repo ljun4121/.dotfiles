@@ -5,7 +5,7 @@
 Clone the repository at `~`. (Home Directory)
 
 ```bash
-git clone https://github.com/limyc/.dotfiles --recursive --shallow-submodules
+git clone https://github.com/ljun4121/.dotfiles --recursive --shallow-submodules
 ```
 
 ## Install
