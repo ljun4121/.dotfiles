@@ -40,7 +40,7 @@ style_user = "fg:#555555 bg:#FFFFFF"
 format = "[$user]($style)"
 
 [hostname]
-style = "bg:#9A348E"
+style = "fg:#555555 bg:#FFFFFF"
 ssh_only = false
 format = "[@$hostname ]($style)"
 disabled = false
