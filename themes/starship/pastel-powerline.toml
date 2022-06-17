@@ -142,7 +142,7 @@ format = "took [$duration](bold yellow)"
 
 [kubernetes]
 style = "bg:#2F8F9D"
-format = '[⛵ $context \($namespace\)]($style)'
+format = '[ﴱ $context \($namespace\)]($style)'
 disabled = false
 
 [kubernetes.context_aliases]
