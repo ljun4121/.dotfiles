@@ -115,7 +115,7 @@ style = "bg:#1363DF"
 format = '[[ $symbol ($version) ](bg:#1363DF)]($style)'
 
 [python]
-symbol = ""
+symbol = ""
 style = "bg:#1363DF"
 pyenv_version_name = true
 format = '[[ $symbol ($version) ](bg:#1363DF)]($style)'
