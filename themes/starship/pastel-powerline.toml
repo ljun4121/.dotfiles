@@ -1,6 +1,6 @@
 format = """
 [](#FFFFFF)\
-$username\
+$username$hostname\
 [](bg:#8BE9FE fg:#FFFFFF)\
 $directory\
 [](fg:#8BE9FE bg:#9F71DB)\
@@ -37,7 +37,13 @@ $cmd_duration\
 show_always = true
 style_root = "bg:#FFFFFF"
 style_user = "fg:#555555 bg:#FFFFFF"
-format = '[$user ]($style)'
+format = "[$user]($style)"
+
+[hostname]
+style = "bg:#9A348E"
+ssh_only = false
+format = "[@$hostname ]($style)"
+disabled = false
 
 [directory]
 style = "fg:#555555 bg:#8BE9FE"
