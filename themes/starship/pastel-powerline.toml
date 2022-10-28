@@ -1,9 +1,9 @@
 format = """
 [](#FFFFFF)\
 $username$hostname\
-[](bg:#8BE9FE fg:#FFFFFF)\
+[](bg:#9BF9FE fg:#FFFFFF)\
 $directory\
-[](fg:#8BE9FE bg:#9F71DB)\
+[](fg:#9BF9FE bg:#9F71DB)\
 $git_branch\
 $git_status\
 [](fg:#9F71DB bg:#1363DF)\
@@ -46,7 +46,7 @@ format = "[@$hostname ]($style)"
 disabled = false
 
 [directory]
-style = "fg:#555555 bg:#8BE9FE"
+style = "fg:#555555 bg:#9BF9FE"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
