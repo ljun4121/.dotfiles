@@ -1,5 +1,5 @@
 # themes::starship
-export STARSHIP_CONFIG=~/.dotfiles/themes/starship/pastel-powerline.toml
+export STARSHIP_CONFIG=~/.dotfiles/themes/starship/tokyo-night.toml
 eval "$(starship init zsh)"
 
 bindkey "^[[1;5C" forward-word
